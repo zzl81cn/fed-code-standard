@@ -61,7 +61,7 @@
 所谓前端自动化，是指用工程化的手段，替换以前需要手动去处理的大量重复性工作。比如代码的压缩，合并，模板生成，状态监听等。鉴于其提供的便利及可靠性，自动化构建已经成了前端开发的趋势。
 
 由于自动化工具往往需要结合具体的场景进行使用，以下代码演示了通过grunt，压缩指定js脚本并输出到指定目录的过程。执行该任务，只需要命令行定位到相关目录，执行 grunt dist 即可。
-```
+``` javascript
 module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
