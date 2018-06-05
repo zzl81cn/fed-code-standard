@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [简介](README.md)
 * [技术栈规范](three/technology.md)
 * [CSS规范](three/cascading-style-sheets.md)
 * [HTML规范](three/hyper-transfer-mark-language.md)
